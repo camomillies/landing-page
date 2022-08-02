@@ -71,9 +71,6 @@ button {
     border: 0px;
     display: flex;
     align-items: center;
-}
-
-.container button.sign-up {
     background: #3882f6;
     color: #f9faf8;
     font-size: 18px;
@@ -136,3 +133,19 @@ button {
     font-size: 24px;
 }
 
+.call-to-action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7% 14%;
+    padding: 4% 0;
+    border-radius: 8px;
+}
+
+.call-to-action button.sign-up {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 6px 30px;
+}
