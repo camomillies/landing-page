@@ -150,3 +150,13 @@ button {
     padding: 6px 30px;
 }
 
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 14%;
+    color: #f9faf8;
+    font-weight: 300;
+    font-size: 18px;
+}
