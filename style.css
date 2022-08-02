@@ -92,7 +92,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 14%;
+    padding: 0 14% 7%;
 }
 
 .information .container {
@@ -116,3 +116,23 @@ button {
     border: 4px solid #3882f6;
     border-radius: 16px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    padding: 7% 21%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quotee {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
